@@ -15,7 +15,7 @@
 //     /  \
 //    15   7
 
-//SOLUTION
+// SOLUTION
 
 /**
  * Definition for a binary tree node. public class TreeNode { int val; TreeNode
@@ -45,6 +45,7 @@ class Solution {
             if (inorder[i] == rootValue) {
                 k = i;
                 break;
+                // continue
             }
         }
 
